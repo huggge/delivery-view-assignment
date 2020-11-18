@@ -1,4 +1,4 @@
-## Todo list app
+## Delivery View
 
 Delivery view assignment made with TypeScript and React.<br />
 <br />
