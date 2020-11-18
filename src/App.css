@@ -1,0 +1,312 @@
+.app {
+  text-align: center;
+}
+
+.navview {
+  cursor: pointer-menu;
+   /* border: solid yellowgreen; */
+}
+
+/* MAIN HEADER */
+
+.nav-header {
+  background-color: whitesmoke;
+  color: #282c34;
+  min-height: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  /* border: solid saddlebrown; */
+}
+
+/* MAIN CONTAINER */
+
+ .outercontainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px;
+  min-width: 480px;
+  margin-bottom: 300px;
+  /* border: solid red; */
+} 
+
+
+/* SUB HEADER */
+
+.subheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  /* border: solid blue; */
+}
+
+/* CONTENT CONTAINERS */
+
+.startcontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  /* border-style: solid; */
+}
+
+.boxlistcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  max-width: 1000px;
+  /* border-style: solid; */
+}
+
+.pickedboxlistcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+  min-width: 480px;
+  max-width: 800px;
+  /* border-style: solid; */
+}
+
+.errorcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+  min-width: 480px;
+  max-width: 1000px;
+  /* border-style: solid; */
+}
+
+.deliverycontainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  min-width: 480px;
+  /* border-style: solid; */
+}
+
+.confirmcontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  min-width: 480px;
+  /* border-style: solid; */
+}
+
+/* IMAGES */
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.headerimg {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.carimg {
+  margin-top: 80px;
+}
+
+.boximg {
+  width: 35%;
+  margin-top: 10px;
+}
+
+.bankimg {
+  width: 35%;
+}
+
+.errorimg {
+    position: relative;
+    width: 35%;
+    opacity: 50%;
+    z-index: -1;
+    margin-top: 50px;
+    margin-bottom: -120px;
+}
+
+/* ????????? */
+
+.greenify {
+  background-color: rgba(0, 128, 0, 0.589);
+}
+
+
+/* BOX ITEM */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  border-radius: 5px;
+  margin: 5px;
+  min-width: 160px;
+  max-width: 200px;
+  min-height: 99px;
+  max-height: 120px;
+  cursor: pointer;
+}
+
+.card-clicked {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973);
+  background-color: rgba(0, 128, 0, 0.589);
+  transition: 0.3s;
+  width: 20%;
+  border-radius: 5px;
+  margin: 5px;
+  min-width: 160px;
+  max-width: 200px;
+  min-height: 99px;
+  max-height: 120px;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* PICKED BOX ITEM */
+
+.item-card-longer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 5px;
+  min-width: 220px;
+  max-width: 500px;
+  min-height: 170px;
+}
+
+.item-card-longer:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.item-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: honeydew;
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 5px;
+  min-width: 160px;
+  max-width: 200px;
+  min-height: 99px;
+  max-height: 110px;
+  float: left;
+  cursor: default;
+  display: inline;
+}
+
+.item-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ANIMATED CAR */
+
+.animation {
+  width: 15vw;
+  height: auto;
+  animation-name: spin;
+  animation-duration: 15000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+
+/* BAR BOX COUNTER */
+
+.counter {
+  background-color: green;
+  color: white;
+  width: 100vw;
+  height: 100px;
+  bottom: 100px;
+  position: fixed;
+}
+
+.counter-hide {
+  display: none;
+}
+
+/* PREV NEXT BAR */
+
+.prevnext {
+  background-color: rgba(194, 225, 225);
+  color: white;
+  width: 100vw;
+  height: 100px;
+  padding: 20px;
+  bottom: 0;
+  position: fixed;
+}
+
+/* AGREEMENT */
+
+.agreement {
+  overflow:scroll;
+  overflow-wrap: break-word;
+  height:400px;
+  min-width: 400px;
+  max-width: 600px;
+}
+
+/* BANKID */
+
+.bankidcontainer {
+  width: 200px;
+  height: 130px;
+  background-color: rgba(128, 128, 128, 0.11);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: honeydew;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .deliveryform {
+    min-width: 400px;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .deliveryform {
+    min-width: 800px;
+  }
+
+}

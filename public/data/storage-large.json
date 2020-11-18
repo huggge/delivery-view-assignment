@@ -1,0 +1,156 @@
+[
+    {
+        "type": "box",
+        "id": 1,
+        "name": "Julsaker",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 2,
+        "name": "Krukor",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 3,
+        "name": "Köksredskap",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 4,
+        "name": "Böcker",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 5,
+        "name": "Pärmar",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 6,
+        "name": "Diverse",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 7,
+        "name": "Städprod",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 8,
+        "name": "Påskpynt",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 9,
+        "name": "Ljusstakar",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 10,
+        "name": "Pengar",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 11,
+        "name": "Städprod",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 12,
+        "name": "Påskpynt",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 13,
+        "name": "Ljusstakar",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 14,
+        "name": "Pengar",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 15,
+        "name": "Städprod",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 16,
+        "name": "Påskpynt",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    },
+
+    {
+        "type": "box",
+        "id": 17,
+        "name": "Ljusstakar",
+        "checked": false,
+        "description": "",
+        "isPicked": false
+    }
+
+
+]
